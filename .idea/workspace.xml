@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30f20be-9d9b-4917-bc8b-b7e7b33de479" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/3.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/5.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/6.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/1.sql" afterPath="$PROJECT_DIR$/src/main/resources/1.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/2.sql" afterPath="$PROJECT_DIR$/src/main/resources/2.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/4.sql" afterPath="$PROJECT_DIR$/src/main/resources/4.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +37,30 @@
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="testBase@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="testbase" type="e3449647:DbNodeDescriptor" />
+        <item name="companies" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="testBase@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="testbase" type="e3449647:DbNodeDescriptor" />
+        <item name="companies_projects" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="testBase@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="testbase" type="e3449647:DbNodeDescriptor" />
+        <item name="customers" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="testBase@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="testbase" type="e3449647:DbNodeDescriptor" />
+        <item name="projects" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="testBase@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="testbase" type="e3449647:DbNodeDescriptor" />
         <item name="skills" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
@@ -56,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/3.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -66,47 +88,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/4.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
-              <folding>
-                <marker date="1509537893253" expanded="true" signature="59:107" ph="ALTER TABLE projects... " />
-                <marker date="1509537893253" expanded="true" signature="110:155" ph="UPDATE proje... " />
-                <marker date="1509537893253" expanded="true" signature="157:199" ph="UPDATE proje... " />
-                <marker date="1509537893253" expanded="true" signature="577:580" ph="UPDATE proje... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initDB.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/initDB.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populateDB.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/populateDB.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f93b0458-c831-4fa1-8829-d77c2fa88632/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="21" />
+              <caret line="1" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/5.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/6.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companies" pinned="false" current-in-tab="false">
+        <entry file="das://table:/97990a06/f93b0458-c831-4fa1-8829-d77c2fa88632/testbase.companies">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companies_projects" pinned="false" current-in-tab="false">
+        <entry file="das://table:/97990a06/f93b0458-c831-4fa1-8829-d77c2fa88632/testbase.companies_projects">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -143,20 +168,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skills" pinned="false" current-in-tab="false">
-        <entry file="das://table:/97990a06/f93b0458-c831-4fa1-8829-d77c2fa88632/testbase.skills">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>like</find>
+      <find>modul_1.</find>
     </findStrings>
     <replaceStrings>
       <replace>=</replace>
@@ -180,8 +197,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/1.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/4.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/2.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f93b0458-c831-4fa1-8829-d77c2fa88632/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/3.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f93b0458-c831-4fa1-8829-d77c2fa88632/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/5.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/6.sql" />
       </list>
     </option>
   </component>
@@ -199,7 +218,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="-6" />
     <option name="y" value="2" />
     <option name="width" value="1940" />
     <option name="height" value="2108" />
@@ -377,15 +396,15 @@
       <workItem from="1509449515909" duration="5976000" />
       <workItem from="1509468272333" duration="8023000" />
       <workItem from="1509492992107" duration="3344000" />
-      <workItem from="1509534658682" duration="3870000" />
+      <workItem from="1509534658682" duration="5944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24864000" />
+    <option name="totallyTimeSpent" value="26938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="2" width="1940" height="2108" extended-state="0" />
+    <frame x="-6" y="2" width="1940" height="2108" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -428,34 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1509537878502" expanded="true" signature="55:107" ph="ALTER TABLE developers... " />
-            <marker date="1509537878502" expanded="true" signature="110:155" ph="UPDATE devel... " />
-            <marker date="1509537878502" expanded="true" signature="356:358" ph="UPDATE devel... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/initDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9f3b3eff-abfd-4ccf-88ea-450eff7b682c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -514,13 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/97990a06/f93b0458-c831-4fa1-8829-d77c2fa88632/testbase.companies_projects">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -600,6 +584,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/97990a06/f93b0458-c831-4fa1-8829-d77c2fa88632/testbase.companies_projects">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/97990a06/f93b0458-c831-4fa1-8829-d77c2fa88632/testbase.companies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -611,15 +617,23 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f93b0458-c831-4fa1-8829-d77c2fa88632/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="21" />
+          <caret line="1" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/3.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/5.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="25">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/6.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
