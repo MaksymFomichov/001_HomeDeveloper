@@ -1,5 +1,8 @@
+/*Добавить разаработчикам поле (salary - зарплата).*/
+
 ALTER TABLE developers
   ADD salary DECIMAL NOT NULL;
+
 UPDATE developers
 SET salary = 1000
 WHERE id = 1;

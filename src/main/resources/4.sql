@@ -1,5 +1,8 @@
+/*Добавить поле (cost - стоимость) в таблицу Projects .*/
+
 ALTER TABLE projects
   ADD cost DECIMAL NOT NULL;
+
 UPDATE projects
 SET cost = 10000
 WHERE id = 1;
