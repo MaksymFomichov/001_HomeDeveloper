@@ -1,9 +1,8 @@
 /*Вычислить общую ЗП всех Java разработчиков. */
 
 SELECT sum(salary)
-FROM skills, developers, developers_skills
-WHERE developers_skills.developers_id = developers.id AND
-      developers_skills.skills_id = skills.id AND
-      skills.skill = "java"
-GROUP BY skills.skill
+FROM developers_skills
+  JOIN developers ON developers.id = developers_skills.developers_id
+  JOIN skills ON skills.id = developers_skills.skills_id
+WHERE skills.skill = "java"
 

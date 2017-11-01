@@ -1,8 +1,8 @@
 /* Найти самый дорогой проект (исходя из ЗП разработчиков) */
 
 SELECT
-  project,
-  sum(salary)
+  projects.project,
+  sum(developers.salary)
 FROM developers_projects
   JOIN developers ON developers.id = developers_projects.developers_id
   JOIN projects ON projects.id = developers_projects.projects_id
